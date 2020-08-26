@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.23;
+  font-family: $trebuchems;
+  color: $color-white;
+
+  background-image: url("../img/bg-main.png");
+
+  @media (min-resolution: $retina-dpi),
+  (min-resolution: $retina-dppx) {
+    background-image: url("../img/bg-main@2x.png")
+  }
+}
